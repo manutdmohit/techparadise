@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { LogOut, LogIn, UserPlus } from 'lucide-react';
+import { LogOut, LogIn, UserPlus, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 
@@ -50,7 +50,11 @@ export default function MobileMenu({
         className="bg-zinc-900/95 backdrop-blur-sm border-b border-zinc-800"
       >
         <div className="container py-4">
-          <nav className="flex flex-col space-y-4 px-2">
+          <X
+            className="h-6 w-6 text-white absolute top-2 right-2 hover:text-red-500"
+            onClick={onClose}
+          />
+          <nav className="flex flex-col space-y-2 px-2">
             {navItems.map((item: any) => (
               <Link
                 key={item.name}
