@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { LogOut, LogIn, UserPlus } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 export default function MobileMenu({
   isOpen,
@@ -70,10 +71,13 @@ export default function MobileMenu({
               {user ? (
                 <>
                   <div className="flex items-center gap-3 border-t border-zinc-800 py-2">
-                    <img
-                      src={user.avatar || '/placeholder.svg?height=32&width=32'}
+                    <Image
+                      src={user.avatar || '/placeholder.svg'}
                       alt={user.firstName}
                       className="h-8 w-8 rounded-full object-cover"
+                      width={32}
+                      height={32}
+                      priority
                     />
                     <div>
                       <p className="text-sm font-medium">
