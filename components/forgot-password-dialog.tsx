@@ -103,37 +103,36 @@ export function ForgotPasswordDialog({
                 )}
               </div>
             </div>
-            <DialogFooter className="flex-col gap-2">
-              <Button
-                type="submit"
-                disabled={isLoading}
-                className={`bg-gradient-to-r ${buttonGradient} w-full`}
+
+            <Button
+              type="submit"
+              disabled={isLoading}
+              className={`bg-gradient-to-r ${buttonGradient} w-full mt-2`}
+            >
+              {isLoading ? (
+                <>
+                  <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                  Sending...
+                </>
+              ) : (
+                'Send Reset Link'
+              )}
+            </Button>
+            <div className="text-center text-sm text-zinc-400 mt-4">
+              Remember your password?{' '}
+              <button
+                type="button"
+                className={`text-${
+                  isCorporate ? 'blue' : 'purple'
+                }-500 hover:underline`}
+                onClick={() => {
+                  onOpenChange(false);
+                  onSignInClick();
+                }}
               >
-                {isLoading ? (
-                  <>
-                    <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                    Sending...
-                  </>
-                ) : (
-                  'Send Reset Link'
-                )}
-              </Button>
-              <div className="text-center text-sm text-zinc-400">
-                Remember your password?{' '}
-                <button
-                  type="button"
-                  className={`text-${
-                    isCorporate ? 'blue' : 'purple'
-                  }-500 hover:underline`}
-                  onClick={() => {
-                    onOpenChange(false);
-                    onSignInClick();
-                  }}
-                >
-                  Sign In
-                </button>
-              </div>
-            </DialogFooter>
+                Sign In
+              </button>
+            </div>
           </form>
         )}
       </DialogContent>
