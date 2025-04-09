@@ -35,16 +35,24 @@ export default function Navbar() {
   const navItems = [
     { name: 'Gaming', href: '/gaming', active: isGaming },
     { name: 'Corporate', href: '/corporate', active: isCorporate },
-    {
-      name:
-        pathname === '/' ? 'Products' : isGaming ? 'Customize' : 'Solutions',
-      href: '#',
-    },
+    { name: 'Products', href: '#' },
     { name: 'Support', href: '#' },
-    {
-      name: pathname === '/' ? 'About' : isGaming ? 'Blog' : 'Contact',
-      href: '#',
-    },
+
+    { name: 'Solutions', href: '#' },
+    { name: 'Blog', href: '#' },
+    { name: 'About', href: '/about' },
+    { name: 'Contact', href: '/contact' },
+
+    // {
+    //   name:
+    //     pathname === '/' ? 'Products' : isGaming ? 'Customize' : 'Solutions',
+    //   href: '#',
+    // },
+    // { name: 'Support', href: '#' },
+    // {
+    //   name: pathname === '/' ? 'About' : isGaming ? 'Blog' : 'Contact',
+    //   href: '#',
+    // },
   ];
 
   return (
