@@ -29,7 +29,7 @@ export default function DesktopActions({
           <Button
             variant="ghost"
             size="sm"
-            className="text-zinc-400 hover:text-white flex items-center gap-2"
+            className="text-zinc-400 hover:text-white flex items-center gap-2 cursor-pointer"
             onClick={openSignIn}
           >
             <LogIn className="h-4 w-4" />
@@ -38,13 +38,16 @@ export default function DesktopActions({
           <Button
             variant="ghost"
             size="sm"
-            className="text-zinc-400 hover:text-white flex items-center gap-2"
+            className="text-zinc-400 hover:text-white flex items-center gap-2 cursor-pointer"
             onClick={openSignUp}
           >
             <UserPlus className="h-4 w-4" />
             Sign Up
           </Button>
-          <Button size="sm" className={`bg-gradient-to-r ${buttonGradient}`}>
+          <Button
+            size="sm"
+            className={`bg-gradient-to-r ${buttonGradient} cursor-pointer`}
+          >
             {isCorporate ? 'Request Quote' : 'Shop Now'}
           </Button>
         </>
