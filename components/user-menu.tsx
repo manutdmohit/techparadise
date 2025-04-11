@@ -46,7 +46,7 @@ export function UserMenu() {
       >
         <Button variant="ghost" className="h-10 w-10 rounded-full p-0">
           <Image
-            src={user.avatar || '/placeholder.svg?height=40&width=40'}
+            src={user.avatar || '/placeholder.svg?height=40&width=400'}
             alt={`${user.firstName} ${user.lastName}`}
             width={40}
             height={40}

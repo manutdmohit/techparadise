@@ -1,0 +1,737 @@
+{
+  "products": [
+    {
+      "id": "quantum-nexus",
+      "name": "Quantum Nexus",
+      "slug": "quantum-nexus-gaming-pc",
+      "sku": "QF-GPC-NX-001",
+      "brand": "QuantumForge",
+      "model": "Nexus 2023",
+      "category": "gaming",
+      "subCategory": "desktop",
+      "tier": "High",
+      "description": "The Quantum Nexus delivers exceptional gaming performance with the latest AMD Ryzen processor and NVIDIA RTX graphics. Perfect for high-FPS gaming and content creation.",
+      "highlights": [
+        "AMD Ryzen 7 7800X3D Processor",
+        "NVIDIA GeForce RTX 4070 Graphics",
+        "32GB DDR5-6000 Memory",
+        "2TB NVMe SSD Storage",
+        "RGB Lighting with Tempered Glass Case"
+      ],
+      "images": [
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600"
+      ],
+      "thumbnail": "/placeholder.svg?height=600&width=600",
+      "price": 1999,
+      "originalPrice": 2199,
+      "discountPercentage": 9,
+      "discountEndDate": "2025-05-17T00:00:00.000Z",
+      "inStock": true,
+      "quantity": 15,
+      "keyFeatures": {
+        "processor": "AMD Ryzen 7 7800X3D",
+        "graphics": "NVIDIA RTX 4070 12GB GDDR6X",
+        "memory": "32GB DDR5-6000 (2x16GB)",
+        "storage": "2TB NVMe PCIe 4.0 SSD",
+        "cooling": "360mm AIO Liquid Cooler",
+        "powerSupply": "850W 80+ Gold Certified",
+        "dimensions": "450mm x 210mm x 480mm",
+        "weight": "15kg"
+      },
+      "specifications": {
+        "Processor": "AMD Ryzen 7 7800X3D (8 Cores, 16 Threads, up to 5.0GHz, 96MB Cache)",
+        "Motherboard": "AMD X670E ATX Gaming Motherboard",
+        "Memory": "32GB DDR5-6000MHz (2x16GB)",
+        "Graphics": "NVIDIA GeForce RTX 4070 12GB GDDR6X",
+        "Storage": "2TB NVMe PCIe 4.0 SSD",
+        "Cooling": "360mm RGB AIO Liquid Cooler",
+        "Power Supply": "850W 80+ Gold Certified Fully Modular",
+        "Case": "Mid-Tower ATX with Tempered Glass Side Panel",
+        "Operating System": "Windows 11 Home",
+        "Networking": "2.5G Ethernet, Wi-Fi 6E, Bluetooth 5.2",
+        "RGB Lighting": "Addressable RGB with Software Control",
+        "Front I/O": "2x USB 3.2 Gen 1, 1x USB 3.2 Gen 2 Type-C, Audio In/Out",
+        "Rear I/O": "4x USB 3.2 Gen 2, 2x USB 3.2 Gen 1, 1x USB 3.2 Gen 2x2 Type-C, 2.5G Ethernet, Audio Ports",
+        "Expansion Slots": "3x PCIe 4.0 x16, 2x PCIe 4.0 x1",
+        "Dimensions": "450mm x 210mm x 480mm",
+        "Weight": "15kg"
+      },
+      "featuresAndBenefits": {
+        "premiumComponents": "Every component is carefully selected for maximum performance and reliability, ensuring your system runs smoothly for years to come.",
+        "expertAssembly": "Each system is hand-built by our expert technicians with meticulous attention to detail and precision cable management.",
+        "extensiveTesting": "Every system undergoes rigorous stress testing and quality control to ensure flawless performance under any workload.",
+        "advancedCooling": "Our proprietary cooling solutions ensure optimal temperatures even during the most demanding tasks, extending component lifespan.",
+        "warrantyAndSupport": "Comprehensive 3-year warranty with lifetime technical support from our knowledgeable team.",
+        "futureProofDesign": "Engineered with upgradeability in mind, allowing for easy component upgrades as technology advances."
+      },
+      "warranty": {
+        "duration": "3 Years",
+        "coverage": "Parts and Labor",
+        "warrantyProvider": "QuantumForge"
+      },
+      "returnPolicy": {
+        "isReturnable": true,
+        "returnWindowDays": 30,
+        "returnPolicyDetails": "30-day money-back guarantee. Return in original packaging for full refund minus shipping costs."
+      },
+      "shipping": {
+        "shippingWeight": "18kg",
+        "shippingDimensions": "600mm x 350mm x 600mm",
+        "shipsFrom": "Seattle, WA",
+        "estimatedDelivery": "3-5 Business Days"
+      },
+      "support": {
+        "supportContact": "support@quantumforge.com",
+        "faqURL": "/support/faq",
+        "guideURL": "/support/guides/quantum-nexus"
+      },
+      "meta": {
+        "title": "Quantum Nexus Gaming PC | QuantumForge",
+        "description": "Experience exceptional gaming performance with the Quantum Nexus featuring AMD Ryzen 7 and NVIDIA RTX 4070 graphics.",
+        "keywords": [
+          "gaming pc",
+          "amd ryzen",
+          "rtx 4070",
+          "high performance",
+          "custom pc"
+        ]
+      },
+      "tags": ["Gaming", "AMD", "NVIDIA", "RGB", "Liquid Cooling"],
+      "isFeatured": false,
+      "isCustomizable": true,
+      "availableOptions": {
+        "cpu": [
+          "AMD Ryzen 7 7800X3D",
+          "AMD Ryzen 9 7900X",
+          "Intel Core i7-13700K"
+        ],
+        "gpu": [
+          "NVIDIA RTX 4070",
+          "NVIDIA RTX 4070 Ti",
+          "AMD Radeon RX 7800 XT"
+        ],
+        "ram": ["32GB DDR5-6000", "64GB DDR5-6000", "32GB DDR5-6400"],
+        "storage": ["2TB NVMe SSD", "4TB NVMe SSD", "2TB NVMe SSD + 4TB HDD"]
+      },
+      "ratings": {
+        "averageRating": 4.8,
+        "reviewCount": 24,
+        "reviews": [
+          {
+            "userId": "user123",
+            "userName": "Alex Johnson",
+            "rating": 5,
+            "comment": "Absolutely incredible machine. The performance is unreal, and the build quality is top-notch. I'm blown away by how quiet it is even under heavy load.",
+            "date": "2023-02-09T00:00:00.000Z"
+          },
+          {
+            "userId": "user456",
+            "userName": "Sarah Chen",
+            "rating": 5,
+            "comment": "This PC has transformed my workflow. Renders that used to take hours now finish in minutes. The customer service was also exceptional throughout the ordering process.",
+            "date": "2023-01-10T00:00:00.000Z"
+          },
+          {
+            "userId": "user789",
+            "userName": "Michael Rodriguez",
+            "rating": 4,
+            "comment": "Great system overall. The performance is excellent, though I had a minor issue with one of the RGB controllers. Support was quick to help resolve it.",
+            "date": "2023-03-11T00:00:00.000Z"
+          }
+        ]
+      },
+      "createdAt": "2022-10-12T00:00:00.000Z",
+      "updatedAt": "2023-04-03T00:00:00.000Z"
+    },
+    {
+      "id": "quantum-apex",
+      "name": "Quantum Apex",
+      "slug": "quantum-apex-gaming-pc",
+      "sku": "QF-GPC-AP-001",
+      "brand": "QuantumForge",
+      "model": "Apex 2023",
+      "category": "gaming",
+      "subCategory": "desktop",
+      "tier": "Enthusiast",
+      "description": "Our flagship gaming PC, the Quantum Apex combines raw power with stunning aesthetics. Featuring a custom liquid cooling loop and premium components for unmatched performance.",
+      "highlights": [
+        "Intel Core i9-13900K Processor",
+        "NVIDIA GeForce RTX 4080 Graphics",
+        "64GB DDR5-6400 Memory",
+        "4TB NVMe SSD Storage",
+        "Custom Loop Liquid Cooling"
+      ],
+      "images": [
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600"
+      ],
+      "thumbnail": "/placeholder.svg?height=600&width=600",
+      "price": 2499,
+      "originalPrice": 2799,
+      "discountPercentage": 10,
+      "discountEndDate": "2025-05-15T00:00:00.000Z",
+      "inStock": true,
+      "quantity": 8,
+      "keyFeatures": {
+        "processor": "Intel Core i9-13900K",
+        "graphics": "NVIDIA RTX 4080 16GB GDDR6X",
+        "memory": "64GB DDR5-6400 (4x16GB)",
+        "storage": "4TB NVMe PCIe 4.0 SSD",
+        "cooling": "Custom Loop Liquid Cooling",
+        "powerSupply": "1000W 80+ Platinum Certified",
+        "dimensions": "500mm x 240mm x 520mm",
+        "weight": "18kg"
+      },
+      "specifications": {
+        "Processor": "Intel Core i9-13900K (24 Cores, 32 Threads, up to 5.8GHz, 36MB Cache)",
+        "Motherboard": "Intel Z790 ATX Gaming Motherboard",
+        "Memory": "64GB DDR5-6400MHz (4x16GB)",
+        "Graphics": "NVIDIA GeForce RTX 4080 16GB GDDR6X",
+        "Storage": "4TB NVMe PCIe 4.0 SSD",
+        "Cooling": "Custom Loop Liquid Cooling with 360mm + 240mm Radiators",
+        "Power Supply": "1000W 80+ Platinum Certified Fully Modular",
+        "Case": "Full-Tower ATX with Tempered Glass Side Panel",
+        "Operating System": "Windows 11 Pro",
+        "Networking": "10G Ethernet, Wi-Fi 6E, Bluetooth 5.2",
+        "RGB Lighting": "Addressable RGB with Software Control",
+        "Front I/O": "2x USB 3.2 Gen 2, 1x USB 3.2 Gen 2x2 Type-C, Audio In/Out",
+        "Rear I/O": "6x USB 3.2 Gen 2, 4x USB 3.2 Gen 1, 1x USB 3.2 Gen 2x2 Type-C, 10G Ethernet, Audio Ports",
+        "Expansion Slots": "4x PCIe 5.0 x16, 2x PCIe 4.0 x1",
+        "Dimensions": "500mm x 240mm x 520mm",
+        "Weight": "18kg"
+      },
+      "featuresAndBenefits": {
+        "premiumComponents": "Only the highest-grade components are selected for the Apex, ensuring exceptional performance and reliability under the most demanding conditions.",
+        "expertAssembly": "Built by our most experienced technicians, each Apex system undergoes a meticulous assembly process with custom cable management and precise tubing runs.",
+        "extensiveTesting": "Every Apex undergoes a 72-hour stress testing protocol to ensure absolute stability and performance before shipping.",
+        "advancedCooling": "Our custom loop liquid cooling system features premium water blocks, fittings, and radiators for unmatched thermal performance and whisper-quiet operation.",
+        "warrantyAndSupport": "Premium 5-year warranty with priority technical support and dedicated customer service representative.",
+        "futureProofDesign": "The Apex is designed with future upgrades in mind, featuring the latest socket and expansion technologies to accommodate next-gen components."
+      },
+      "warranty": {
+        "duration": "5 Years",
+        "coverage": "Parts and Labor",
+        "warrantyProvider": "QuantumForge"
+      },
+      "returnPolicy": {
+        "isReturnable": true,
+        "returnWindowDays": 45,
+        "returnPolicyDetails": "45-day satisfaction guarantee. Return in original packaging for full refund minus shipping costs."
+      },
+      "shipping": {
+        "shippingWeight": "25kg",
+        "shippingDimensions": "650mm x 400mm x 650mm",
+        "shipsFrom": "Seattle, WA",
+        "estimatedDelivery": "3-5 Business Days"
+      },
+      "support": {
+        "supportContact": "premium-support@quantumforge.com",
+        "faqURL": "/support/faq",
+        "guideURL": "/support/guides/quantum-apex"
+      },
+      "meta": {
+        "title": "Quantum Apex Gaming PC | QuantumForge",
+        "description": "Experience unmatched gaming performance with the Quantum Apex featuring Intel Core i9 and NVIDIA RTX 4080 graphics with custom liquid cooling.",
+        "keywords": [
+          "gaming pc",
+          "intel i9",
+          "rtx 4080",
+          "liquid cooling",
+          "custom pc",
+          "high-end gaming"
+        ]
+      },
+      "tags": [
+        "Gaming",
+        "Intel",
+        "NVIDIA",
+        "Custom Loop",
+        "Liquid Cooling",
+        "Premium"
+      ],
+      "isFeatured": true,
+      "isCustomizable": true,
+      "availableOptions": {
+        "cpu": [
+          "Intel Core i9-13900K",
+          "Intel Core i9-13900KS",
+          "AMD Ryzen 9 7950X"
+        ],
+        "gpu": ["NVIDIA RTX 4080", "NVIDIA RTX 4090", "AMD Radeon RX 7900 XTX"],
+        "ram": ["64GB DDR5-6400", "128GB DDR5-6000", "64GB DDR5-7200"],
+        "storage": ["4TB NVMe SSD", "8TB NVMe SSD", "4TB NVMe SSD + 8TB HDD"]
+      },
+      "ratings": {
+        "averageRating": 4.9,
+        "reviewCount": 42,
+        "reviews": [
+          {
+            "userId": "user234",
+            "userName": "James Wilson",
+            "rating": 5,
+            "comment": "This is the ultimate gaming machine. Everything from the packaging to the build quality screams premium. Games run flawlessly at 4K, and the custom cooling keeps everything ice cold even during marathon sessions.",
+            "date": "2023-02-24T00:00:00.000Z"
+          },
+          {
+            "userId": "user567",
+            "userName": "Emily Zhang",
+            "rating": 5,
+            "comment": "As a professional 3D artist, I needed something that could handle complex scenes and renders. The Apex doesn't disappoint - it's cut my rendering times by 70% compared to my previous workstation.",
+            "date": "2023-01-25T00:00:00.000Z"
+          },
+          {
+            "userId": "user890",
+            "userName": "David Thompson",
+            "rating": 4,
+            "comment": "Nearly perfect system. The performance is incredible, and the custom loop is a work of art. Only giving 4 stars because the RGB software had some conflicts with my peripherals, but support helped me resolve it.",
+            "date": "2023-03-21T00:00:00.000Z"
+          }
+        ]
+      },
+      "createdAt": "2022-11-11T00:00:00.000Z",
+      "updatedAt": "2023-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "quantum-void",
+      "name": "Quantum Void",
+      "slug": "quantum-void-gaming-pc",
+      "sku": "QF-GPC-VD-001",
+      "brand": "QuantumForge",
+      "model": "Void 2023",
+      "category": "gaming",
+      "subCategory": "desktop",
+      "tier": "Enthusiast",
+      "description": "The ultimate gaming experience. The Quantum Void pushes the boundaries of what's possible with cutting-edge components and uncompromising build quality.",
+      "highlights": [
+        "AMD Ryzen 9 7950X Processor",
+        "NVIDIA GeForce RTX 4090 Graphics",
+        "64GB DDR5-6400 Memory",
+        "8TB NVMe SSD Storage",
+        "Custom Loop Liquid Cooling"
+      ],
+      "images": [
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600"
+      ],
+      "thumbnail": "/placeholder.svg?height=600&width=600",
+      "price": 3499,
+      "originalPrice": 3699,
+      "discountPercentage": 5,
+      "discountEndDate": "2025-05-13T00:00:00.000Z",
+      "inStock": true,
+      "quantity": 5,
+      "keyFeatures": {
+        "processor": "AMD Ryzen 9 7950X",
+        "graphics": "NVIDIA RTX 4090 24GB GDDR6X",
+        "memory": "64GB DDR5-6400 (4x16GB)",
+        "storage": "8TB NVMe PCIe 4.0 SSD",
+        "cooling": "Custom Loop Liquid Cooling",
+        "powerSupply": "1200W 80+ Titanium Certified",
+        "dimensions": "550mm x 250mm x 550mm",
+        "weight": "22kg"
+      },
+      "specifications": {
+        "Processor": "AMD Ryzen 9 7950X (16 Cores, 32 Threads, up to 5.7GHz, 80MB Cache)",
+        "Motherboard": "AMD X670E ATX Gaming Motherboard",
+        "Memory": "64GB DDR5-6400MHz (4x16GB)",
+        "Graphics": "NVIDIA GeForce RTX 4090 24GB GDDR6X",
+        "Storage": "8TB NVMe PCIe 4.0 SSD (2x 4TB in RAID 0)",
+        "Cooling": "Custom Loop Liquid Cooling with 420mm + 360mm Radiators",
+        "Power Supply": "1200W 80+ Titanium Certified Fully Modular",
+        "Case": "Full-Tower ATX with Tempered Glass Side Panel",
+        "Operating System": "Windows 11 Pro",
+        "Networking": "10G Ethernet, Wi-Fi 6E, Bluetooth 5.2",
+        "RGB Lighting": "Addressable RGB with Software Control",
+        "Front I/O": "2x USB 3.2 Gen 2, 1x USB 3.2 Gen 2x2 Type-C, Audio In/Out",
+        "Rear I/O": "8x USB 3.2 Gen 2, 4x USB 3.2 Gen 1, 2x USB 3.2 Gen 2x2 Type-C, 10G Ethernet, Audio Ports",
+        "Expansion Slots": "4x PCIe 5.0 x16, 2x PCIe 4.0 x1",
+        "Dimensions": "550mm x 250mm x 550mm",
+        "Weight": "22kg"
+      },
+      "featuresAndBenefits": {
+        "premiumComponents": "The Void represents the pinnacle of PC hardware, featuring only the most exclusive and high-performance components available on the market.",
+        "expertAssembly": "Each Void system is built by our master technicians with decades of experience, ensuring immaculate assembly and presentation.",
+        "extensiveTesting": "Our most rigorous testing protocol, with 96 hours of stress testing and benchmarking to ensure absolute perfection in performance.",
+        "advancedCooling": "Dual-loop custom liquid cooling with premium components ensures optimal temperatures and near-silent operation even under extreme workloads.",
+        "warrantyAndSupport": "Exclusive 5-year warranty with white-glove support service and on-site technical assistance if needed.",
+        "futureProofDesign": "The ultimate future-proof design with maximum expandability and the latest technologies to ensure longevity and upgrade potential."
+      },
+      "warranty": {
+        "duration": "5 Years",
+        "coverage": "Parts and Labor with On-Site Service",
+        "warrantyProvider": "QuantumForge"
+      },
+      "returnPolicy": {
+        "isReturnable": true,
+        "returnWindowDays": 60,
+        "returnPolicyDetails": "60-day satisfaction guarantee. Return in original packaging for full refund including shipping costs."
+      },
+      "shipping": {
+        "shippingWeight": "30kg",
+        "shippingDimensions": "700mm x 450mm x 700mm",
+        "shipsFrom": "Seattle, WA",
+        "estimatedDelivery": "White Glove Delivery, 3-7 Business Days"
+      },
+      "support": {
+        "supportContact": "elite-support@quantumforge.com",
+        "faqURL": "/support/faq",
+        "guideURL": "/support/guides/quantum-void"
+      },
+      "meta": {
+        "title": "Quantum Void Gaming PC | QuantumForge",
+        "description": "Experience the ultimate in gaming performance with the Quantum Void featuring AMD Ryzen 9 and NVIDIA RTX 4090 graphics with custom liquid cooling.",
+        "keywords": [
+          "gaming pc",
+          "amd ryzen 9",
+          "rtx 4090",
+          "liquid cooling",
+          "custom pc",
+          "enthusiast gaming",
+          "high-end pc"
+        ]
+      },
+      "tags": [
+        "Gaming",
+        "AMD",
+        "NVIDIA",
+        "Custom Loop",
+        "Liquid Cooling",
+        "Premium",
+        "Enthusiast"
+      ],
+      "isFeatured": false,
+      "isCustomizable": true,
+      "availableOptions": {
+        "cpu": [
+          "AMD Ryzen 9 7950X",
+          "AMD Ryzen 9 7950X3D",
+          "Intel Core i9-13900KS"
+        ],
+        "gpu": ["NVIDIA RTX 4090", "Dual NVIDIA RTX 4080"],
+        "ram": ["64GB DDR5-6400", "128GB DDR5-6000", "128GB DDR5-6400"],
+        "storage": ["8TB NVMe SSD", "12TB NVMe SSD", "8TB NVMe SSD + 16TB HDD"]
+      },
+      "ratings": {
+        "averageRating": 5.0,
+        "reviewCount": 18,
+        "reviews": [
+          {
+            "userId": "user345",
+            "userName": "Thomas Wright",
+            "rating": 5,
+            "comment": "The Void is simply in a class of its own. The build quality is museum-worthy, and the performance is otherworldly. Worth every penny for those who demand the absolute best.",
+            "date": "2023-03-11T00:00:00.000Z"
+          },
+          {
+            "userId": "user678",
+            "userName": "Sophia Martinez",
+            "rating": 5,
+            "comment": "As a professional game developer, I need serious horsepower. The Void handles everything I throw at it - compiling, rendering, testing - all simultaneously without breaking a sweat.",
+            "date": "2023-02-09T00:00:00.000Z"
+          },
+          {
+            "userId": "user901",
+            "userName": "Ryan Kim",
+            "rating": 5,
+            "comment": "The white glove delivery and setup service was exceptional. The system itself is a masterpiece of engineering. Absolutely silent even under full load, and the performance is mind-blowing.",
+            "date": "2023-03-26T00:00:00.000Z"
+          }
+        ]
+      },
+      "createdAt": "2022-12-11T00:00:00.000Z",
+      "updatedAt": "2023-04-07T00:00:00.000Z"
+    },
+    {
+      "id": "quantum-stealth",
+      "name": "Quantum Stealth",
+      "slug": "quantum-stealth-gaming-pc",
+      "sku": "QF-GPC-ST-001",
+      "brand": "QuantumForge",
+      "model": "Stealth 2023",
+      "category": "gaming",
+      "subCategory": "desktop",
+      "tier": "High",
+      "description": "A sleek, minimalist gaming PC that delivers exceptional performance without the flashy RGB. Perfect for those who prefer an understated aesthetic.",
+      "highlights": [
+        "Intel Core i7-13700K Processor",
+        "NVIDIA GeForce RTX 4070 Graphics",
+        "32GB DDR5-5600 Memory",
+        "2TB NVMe SSD Storage",
+        "Silent Operation Design"
+      ],
+      "images": [
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600"
+      ],
+      "thumbnail": "/placeholder.svg?height=600&width=600",
+      "price": 1899,
+      "originalPrice": 2099,
+      "discountPercentage": 9.5,
+      "discountEndDate": "2025-05-20T00:00:00.000Z",
+      "inStock": true,
+      "quantity": 12,
+      "keyFeatures": {
+        "processor": "Intel Core i7-13700K",
+        "graphics": "NVIDIA RTX 4070 12GB GDDR6X",
+        "memory": "32GB DDR5-5600 (2x16GB)",
+        "storage": "2TB NVMe PCIe 4.0 SSD",
+        "cooling": "240mm AIO Liquid Cooler (Silent)",
+        "powerSupply": "850W 80+ Gold Certified",
+        "dimensions": "430mm x 210mm x 450mm",
+        "weight": "14kg"
+      },
+      "specifications": {
+        "Processor": "Intel Core i7-13700K (16 Cores, 24 Threads, up to 5.4GHz, 30MB Cache)",
+        "Motherboard": "Intel Z790 ATX Gaming Motherboard",
+        "Memory": "32GB DDR5-5600MHz (2x16GB)",
+        "Graphics": "NVIDIA GeForce RTX 4070 12GB GDDR6X",
+        "Storage": "2TB NVMe PCIe 4.0 SSD",
+        "Cooling": "240mm Silent AIO Liquid Cooler",
+        "Power Supply": "850W 80+ Gold Certified Fully Modular",
+        "Case": "Mid-Tower ATX with Sound Dampening Panels",
+        "Operating System": "Windows 11 Home",
+        "Networking": "2.5G Ethernet, Wi-Fi 6E, Bluetooth 5.2",
+        "RGB Lighting": "None (Minimalist Design)",
+        "Front I/O": "2x USB 3.2 Gen 1, 1x USB 3.2 Gen 2 Type-C, Audio In/Out",
+        "Rear I/O": "4x USB 3.2 Gen 2, 2x USB 3.2 Gen 1, 1x USB 3.2 Gen 2x2 Type-C, 2.5G Ethernet, Audio Ports",
+        "Expansion Slots": "3x PCIe 4.0 x16, 2x PCIe 4.0 x1",
+        "Dimensions": "430mm x 210mm x 450mm",
+        "Weight": "14kg"
+      },
+      "featuresAndBenefits": {
+        "premiumComponents": "High-performance components selected for both power and silent operation, perfect for those who value a quiet computing experience.",
+        "expertAssembly": "Assembled with a focus on noise reduction, including strategic cable management to optimize airflow and minimize turbulence.",
+        "extensiveTesting": "Each Stealth system undergoes acoustic testing in addition to performance testing to ensure it meets our strict noise level standards.",
+        "advancedCooling": "Silent cooling solution with custom fan curves and noise-dampening materials to maintain low temperatures without the noise.",
+        "warrantyAndSupport": "3-year warranty with lifetime technical support from our knowledgeable team.",
+        "futureProofDesign": "Designed for easy upgrades while maintaining the minimalist aesthetic and silent operation."
+      },
+      "warranty": {
+        "duration": "3 Years",
+        "coverage": "Parts and Labor",
+        "warrantyProvider": "QuantumForge"
+      },
+      "returnPolicy": {
+        "isReturnable": true,
+        "returnWindowDays": 30,
+        "returnPolicyDetails": "30-day money-back guarantee. Return in original packaging for full refund minus shipping costs."
+      },
+      "shipping": {
+        "shippingWeight": "17kg",
+        "shippingDimensions": "580mm x 350mm x 580mm",
+        "shipsFrom": "Seattle, WA",
+        "estimatedDelivery": "3-5 Business Days"
+      },
+      "support": {
+        "supportContact": "support@quantumforge.com",
+        "faqURL": "/support/faq",
+        "guideURL": "/support/guides/quantum-stealth"
+      },
+      "meta": {
+        "title": "Quantum Stealth Gaming PC | QuantumForge",
+        "description": "Experience powerful, silent gaming with the Quantum Stealth featuring Intel Core i7 and NVIDIA RTX 4070 graphics in a minimalist design.",
+        "keywords": [
+          "gaming pc",
+          "intel i7",
+          "rtx 4070",
+          "silent pc",
+          "minimalist design",
+          "quiet gaming"
+        ]
+      },
+      "tags": ["Gaming", "Intel", "NVIDIA", "Silent", "Minimalist"],
+      "isFeatured": false,
+      "isCustomizable": true,
+      "availableOptions": {
+        "cpu": [
+          "Intel Core i7-13700K",
+          "Intel Core i9-13900K",
+          "AMD Ryzen 7 7800X3D"
+        ],
+        "gpu": ["NVIDIA RTX 4070", "NVIDIA RTX 4070 Ti", "NVIDIA RTX 4080"],
+        "ram": ["32GB DDR5-5600", "64GB DDR5-5600", "32GB DDR5-6000"],
+        "storage": ["2TB NVMe SSD", "4TB NVMe SSD", "2TB NVMe SSD + 4TB HDD"]
+      },
+      "ratings": {
+        "averageRating": 4.7,
+        "reviewCount": 19,
+        "reviews": [
+          {
+            "userId": "user456",
+            "userName": "Michael Chen",
+            "rating": 5,
+            "comment": "The Stealth is exactly what I was looking for - powerful but whisper quiet. Perfect for my home office where I need to game and work without distractions.",
+            "date": "2023-03-15T00:00:00.000Z"
+          },
+          {
+            "userId": "user789",
+            "userName": "Jessica Kim",
+            "rating": 4,
+            "comment": "Great performance in a sleek package. The minimalist design fits perfectly with my setup. Only giving 4 stars because I wish it had a bit more storage by default.",
+            "date": "2023-02-22T00:00:00.000Z"
+          },
+          {
+            "userId": "user321",
+            "userName": "Robert Taylor",
+            "rating": 5,
+            "comment": "Finally a high-end PC without the light show! Performs exceptionally well for both gaming and my professional work. The silence is golden.",
+            "date": "2023-01-18T00:00:00.000Z"
+          }
+        ]
+      },
+      "createdAt": "2022-11-05T00:00:00.000Z",
+      "updatedAt": "2023-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "quantum-compact",
+      "name": "Quantum Compact",
+      "slug": "quantum-compact-gaming-pc",
+      "sku": "QF-GPC-CM-001",
+      "brand": "QuantumForge",
+      "model": "Compact 2023",
+      "category": "gaming",
+      "subCategory": "small-form-factor",
+      "tier": "Mid",
+      "description": "Don't let the small size fool you. The Quantum Compact packs serious gaming power in a space-saving design, perfect for smaller setups.",
+      "highlights": [
+        "AMD Ryzen 5 7600X Processor",
+        "NVIDIA GeForce RTX 4060 Ti Graphics",
+        "32GB DDR5-5600 Memory",
+        "1TB NVMe SSD Storage",
+        "Compact ITX Design"
+      ],
+      "images": [
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600",
+        "/placeholder.svg?height=600&width=600"
+      ],
+      "thumbnail": "/placeholder.svg?height=600&width=600",
+      "price": 1599,
+      "originalPrice": 1699,
+      "discountPercentage": 5.9,
+      "discountEndDate": "2025-05-18T00:00:00.000Z",
+      "inStock": true,
+      "quantity": 22,
+      "keyFeatures": {
+        "processor": "AMD Ryzen 5 7600X",
+        "graphics": "NVIDIA RTX 4060 Ti 8GB GDDR6",
+        "memory": "32GB DDR5-5600 (2x16GB)",
+        "storage": "1TB NVMe PCIe 4.0 SSD",
+        "cooling": "240mm AIO Liquid Cooler",
+        "powerSupply": "650W 80+ Gold SFX",
+        "dimensions": "330mm x 160mm x 350mm",
+        "weight": "8kg"
+      },
+      "specifications": {
+        "Processor": "AMD Ryzen 5 7600X (6 Cores, 12 Threads, up to 5.3GHz, 32MB Cache)",
+        "Motherboard": "AMD B650 Mini-ITX Gaming Motherboard",
+        "Memory": "32GB DDR5-5600MHz (2x16GB)",
+        "Graphics": "NVIDIA GeForce RTX 4060 Ti 8GB GDDR6",
+        "Storage": "1TB NVMe PCIe 4.0 SSD",
+        "Cooling": "240mm AIO Liquid Cooler",
+        "Power Supply": "650W 80+ Gold SFX Fully Modular",
+        "Case": "Premium Mini-ITX with Tempered Glass Side Panel",
+        "Operating System": "Windows 11 Home",
+        "Networking": "2.5G Ethernet, Wi-Fi 6, Bluetooth 5.2",
+        "RGB Lighting": "Minimal RGB Accents",
+        "Front I/O": "1x USB 3.2 Gen 2, 1x USB 3.2 Gen 2 Type-C, Audio In/Out",
+        "Rear I/O": "4x USB 3.2 Gen 2, 2x USB 3.2 Gen 1, 1x USB 3.2 Gen 2 Type-C, 2.5G Ethernet, Audio Ports",
+        "Expansion Slots": "1x PCIe 4.0 x16",
+        "Dimensions": "330mm x 160mm x 350mm",
+        "Weight": "8kg"
+      },
+      "featuresAndBenefits": {
+        "premiumComponents": "Carefully selected components optimized for the compact form factor without compromising on performance.",
+        "expertAssembly": "Meticulously assembled by specialists in small form factor builds, with precision cable management in the limited space.",
+        "extensiveTesting": "Each system undergoes comprehensive testing to ensure optimal performance and thermal efficiency in the compact chassis.",
+        "advancedCooling": "Custom cooling solution designed specifically for small form factor cases, ensuring optimal airflow and temperature control.",
+        "warrantyAndSupport": "3-year warranty with lifetime technical support from our knowledgeable team.",
+        "futureProofDesign": "Designed for upgradability despite the compact size, with careful component selection to ensure future compatibility."
+      },
+      "warranty": {
+        "duration": "3 Years",
+        "coverage": "Parts and Labor",
+        "warrantyProvider": "QuantumForge"
+      },
+      "returnPolicy": {
+        "isReturnable": true,
+        "returnWindowDays": 30,
+        "returnPolicyDetails": "30-day money-back guarantee. Return in original packaging for full refund minus shipping costs."
+      },
+      "shipping": {
+        "shippingWeight": "12kg",
+        "shippingDimensions": "450mm x 280mm x 450mm",
+        "shipsFrom": "Seattle, WA",
+        "estimatedDelivery": "3-5 Business Days"
+      },
+      "support": {
+        "supportContact": "support@quantumforge.com",
+        "faqURL": "/support/faq",
+        "guideURL": "/support/guides/quantum-compact"
+      },
+      "meta": {
+        "title": "Quantum Compact Gaming PC | QuantumForge",
+        "description": "Experience powerful gaming in a compact form factor with the Quantum Compact featuring AMD Ryzen 5 and NVIDIA RTX 4060 Ti graphics.",
+        "keywords": [
+          "gaming pc",
+          "small form factor",
+          "mini itx",
+          "compact pc",
+          "rtx 4060 ti",
+          "amd ryzen"
+        ]
+      },
+      "tags": ["Gaming", "AMD", "NVIDIA", "Compact", "Mini-ITX", "SFF"],
+      "isFeatured": true,
+      "isCustomizable": true,
+      "availableOptions": {
+        "cpu": [
+          "AMD Ryzen 5 7600X",
+          "AMD Ryzen 7 7700X",
+          "Intel Core i5-13600K"
+        ],
+        "gpu": [
+          "NVIDIA RTX 4060 Ti",
+          "NVIDIA RTX 4070",
+          "AMD Radeon RX 7600 XT"
+        ],
+        "ram": ["32GB DDR5-5600", "64GB DDR5-5600", "32GB DDR5-6000"],
+        "storage": ["1TB NVMe SSD", "2TB NVMe SSD", "1TB NVMe SSD + 2TB HDD"]
+      },
+      "ratings": {
+        "averageRating": 4.8,
+        "reviewCount": 32,
+        "reviews": [
+          {
+            "userId": "user567",
+            "userName": "David Park",
+            "rating": 5,
+            "comment": "Perfect for my small apartment! I was worried about performance in such a small case, but this thing runs everything I throw at it without breaking a sweat.",
+            "date": "2023-02-15T00:00:00.000Z"
+          },
+          {
+            "userId": "user890",
+            "userName": "Emma Wilson",
+            "rating": 5,
+            "comment": "I travel frequently between homes and needed something powerful but portable. This fits perfectly in my backpack and performs like a much larger system.",
+            "date": "2023-01-20T00:00:00.000Z"
+          },
+          {
+            "userId": "user123",
+            "userName": "Jason Lee",
+            "rating": 4,
+            "comment": "Great little powerhouse. Runs all my games at high settings without issue. Only giving 4 stars because it can get a bit loud under heavy load.",
+            "date": "2023-03-05T00:00:00.000Z"
+          }
+        ]
+      },
+      "createdAt": "2022-10-15T00:00:00.000Z",
+      "updatedAt": "2023-04-02T00:00:00.000Z"
+    }
+  ]
+}

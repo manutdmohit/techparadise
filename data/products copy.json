@@ -1,0 +1,373 @@
+{
+  "products": [
+    {
+      "id": "quantum-nexus",
+      "slug": "quantum-nexus-gaming-pc",
+      "name": "Quantum Nexus",
+      "category": "gaming",
+      "tier": "enthusiast",
+      "price": 1999,
+      "specs": {
+        "cpu": "AMD Ryzen 7 7800X3D",
+        "gpu": "NVIDIA RTX 4070",
+        "ram": "32GB DDR5-6000",
+        "storage": "2TB NVMe SSD",
+        "cooling": "360mm AIO Liquid Cooler"
+      },
+      "features": ["RGB Lighting", "Tempered Glass", "Wi-Fi 6E"],
+      "description": "The Quantum Nexus delivers exceptional gaming performance with the latest AMD Ryzen processor and NVIDIA RTX graphics. Perfect for high-FPS gaming and content creation.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "quantum-apex",
+      "slug": "quantum-apex-gaming-pc",
+      "name": "Quantum Apex",
+      "category": "gaming",
+      "tier": "elite",
+      "price": 2499,
+      "specs": {
+        "cpu": "Intel Core i9-13900K",
+        "gpu": "NVIDIA RTX 4080",
+        "ram": "64GB DDR5-6400",
+        "storage": "4TB NVMe SSD",
+        "cooling": "Custom Loop Liquid Cooling"
+      },
+      "features": [
+        "RGB Lighting",
+        "Tempered Glass",
+        "Wi-Fi 6E",
+        "Thunderbolt 4"
+      ],
+      "description": "Our flagship gaming PC, the Quantum Apex combines raw power with stunning aesthetics. Featuring a custom liquid cooling loop and premium components for unmatched performance.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "quantum-void",
+      "slug": "quantum-void-gaming-pc",
+      "name": "Quantum Void",
+      "category": "gaming",
+      "tier": "ultimate",
+      "price": 3499,
+      "specs": {
+        "cpu": "AMD Ryzen 9 7950X",
+        "gpu": "NVIDIA RTX 4090",
+        "ram": "64GB DDR5-6400",
+        "storage": "8TB NVMe SSD",
+        "cooling": "Custom Loop Liquid Cooling"
+      },
+      "features": [
+        "RGB Lighting",
+        "Tempered Glass",
+        "Wi-Fi 6E",
+        "Thunderbolt 4",
+        "10Gb Ethernet"
+      ],
+      "description": "The ultimate gaming experience. The Quantum Void pushes the boundaries of what's possible with cutting-edge components and uncompromising build quality.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "quantum-stealth",
+      "slug": "quantum-stealth-gaming-pc",
+      "name": "Quantum Stealth",
+      "category": "gaming",
+      "tier": "enthusiast",
+      "price": 1899,
+      "specs": {
+        "cpu": "Intel Core i7-13700K",
+        "gpu": "NVIDIA RTX 4070",
+        "ram": "32GB DDR5-5600",
+        "storage": "2TB NVMe SSD",
+        "cooling": "240mm AIO Liquid Cooler"
+      },
+      "features": ["Minimalist Design", "Silent Operation", "Wi-Fi 6E"],
+      "description": "A sleek, minimalist gaming PC that delivers exceptional performance without the flashy RGB. Perfect for those who prefer an understated aesthetic.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "quantum-compact",
+      "slug": "quantum-compact-gaming-pc",
+      "name": "Quantum Compact",
+      "category": "gaming",
+      "tier": "performance",
+      "price": 1599,
+      "specs": {
+        "cpu": "AMD Ryzen 5 7600X",
+        "gpu": "NVIDIA RTX 4060 Ti",
+        "ram": "32GB DDR5-5600",
+        "storage": "1TB NVMe SSD",
+        "cooling": "Air Cooling"
+      },
+      "features": ["Compact Design", "RGB Lighting", "Wi-Fi 6"],
+      "description": "Don't let the small size fool you. The Quantum Compact packs serious gaming power in a space-saving design, perfect for smaller setups.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "creator-pro",
+      "slug": "creator-pro-workstation",
+      "name": "Creator Pro",
+      "category": "workstation",
+      "tier": "professional",
+      "price": 2799,
+      "specs": {
+        "cpu": "AMD Ryzen 9 7950X",
+        "gpu": "NVIDIA RTX 4080",
+        "ram": "64GB DDR5-6000",
+        "storage": "4TB NVMe SSD",
+        "cooling": "360mm AIO Liquid Cooler"
+      },
+      "features": [
+        "Thunderbolt 4",
+        "10Gb Ethernet",
+        "Wi-Fi 6E",
+        "ECC Memory Option"
+      ],
+      "description": "Designed for content creators, the Creator Pro delivers exceptional performance for video editing, 3D rendering, and other creative workflows.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "creator-ultra",
+      "slug": "creator-ultra-workstation",
+      "name": "Creator Ultra",
+      "category": "workstation",
+      "tier": "elite",
+      "price": 3499,
+      "specs": {
+        "cpu": "Intel Core i9-13900K",
+        "gpu": "NVIDIA RTX 4090",
+        "ram": "128GB DDR5-6400",
+        "storage": "8TB NVMe SSD",
+        "cooling": "Custom Loop Liquid Cooling"
+      },
+      "features": [
+        "Thunderbolt 4",
+        "10Gb Ethernet",
+        "Wi-Fi 6E",
+        "ECC Memory",
+        "Dual GPU Option"
+      ],
+      "description": "Our most powerful workstation, the Creator Ultra is built for the most demanding creative professionals who require uncompromising performance.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "creator-max",
+      "slug": "creator-max-workstation",
+      "name": "Creator Max",
+      "category": "workstation",
+      "tier": "ultimate",
+      "price": 4299,
+      "specs": {
+        "cpu": "AMD Threadripper Pro",
+        "gpu": "Dual NVIDIA RTX 4080",
+        "ram": "256GB DDR5-4800 ECC",
+        "storage": "12TB NVMe SSD RAID",
+        "cooling": "Custom Loop Liquid Cooling"
+      },
+      "features": [
+        "Thunderbolt 4",
+        "10Gb Ethernet",
+        "Wi-Fi 6E",
+        "ECC Memory",
+        "Dual GPU",
+        "RAID Storage"
+      ],
+      "description": "The ultimate workstation for professionals who demand the absolute best. With a Threadripper Pro processor and dual GPUs, no task is too complex.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": false,
+      "featured": false
+    },
+    {
+      "id": "workstation-pro",
+      "slug": "workstation-pro",
+      "name": "Workstation Pro",
+      "category": "workstation",
+      "tier": "professional",
+      "price": 3299,
+      "specs": {
+        "cpu": "Intel Xeon W-3400",
+        "gpu": "NVIDIA RTX A4000",
+        "ram": "128GB DDR5-4800 ECC",
+        "storage": "4TB NVMe SSD",
+        "cooling": "Air Cooling"
+      },
+      "features": [
+        "ECC Memory",
+        "ISV Certified",
+        "10Gb Ethernet",
+        "Remote Management"
+      ],
+      "description": "A professional-grade workstation designed for reliability and performance in CAD, CAM, and other professional applications.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "workstation-ultra",
+      "slug": "workstation-ultra",
+      "name": "Workstation Ultra",
+      "category": "workstation",
+      "tier": "elite",
+      "price": 4999,
+      "specs": {
+        "cpu": "AMD Threadripper Pro",
+        "gpu": "NVIDIA RTX A5000",
+        "ram": "256GB DDR5-4800 ECC",
+        "storage": "8TB NVMe SSD RAID",
+        "cooling": "360mm AIO Liquid Cooler"
+      },
+      "features": [
+        "ECC Memory",
+        "ISV Certified",
+        "10Gb Ethernet",
+        "Remote Management",
+        "RAID Storage"
+      ],
+      "description": "An ultra-powerful workstation designed for the most demanding professional workflows in engineering, scientific computing, and AI development.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "workstation-max",
+      "slug": "workstation-max",
+      "name": "Workstation Max",
+      "category": "workstation",
+      "tier": "ultimate",
+      "price": 7999,
+      "specs": {
+        "cpu": "Dual AMD EPYC",
+        "gpu": "Dual NVIDIA RTX A6000",
+        "ram": "512GB DDR5-4800 ECC",
+        "storage": "16TB NVMe SSD RAID",
+        "cooling": "Custom Liquid Cooling"
+      },
+      "features": [
+        "ECC Memory",
+        "ISV Certified",
+        "10Gb Ethernet",
+        "Remote Management",
+        "RAID Storage",
+        "Redundant Power"
+      ],
+      "description": "Our most powerful workstation, featuring dual EPYC processors and A6000 GPUs for unmatched performance in AI, scientific computing, and visualization.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": false,
+      "featured": false
+    },
+    {
+      "id": "server-r1",
+      "slug": "server-r1",
+      "name": "Server R1",
+      "category": "server",
+      "tier": "entry",
+      "price": 3999,
+      "specs": {
+        "cpu": "Dual Intel Xeon Silver",
+        "gpu": "None",
+        "ram": "128GB DDR5-4800 ECC",
+        "storage": "4TB SSD RAID",
+        "cooling": "Redundant Air Cooling"
+      },
+      "features": [
+        "Rack Mountable",
+        "Redundant Power",
+        "Remote Management",
+        "RAID Storage"
+      ],
+      "description": "An entry-level rack server designed for small to medium businesses, offering reliability and performance for various server workloads.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "server-r2",
+      "slug": "server-r2",
+      "name": "Server R2",
+      "category": "server",
+      "tier": "professional",
+      "price": 5999,
+      "specs": {
+        "cpu": "Dual Intel Xeon Gold",
+        "gpu": "Optional NVIDIA T4",
+        "ram": "256GB DDR5-4800 ECC",
+        "storage": "8TB SSD RAID",
+        "cooling": "Redundant Air Cooling"
+      },
+      "features": [
+        "Rack Mountable",
+        "Redundant Power",
+        "Remote Management",
+        "RAID Storage",
+        "Hot-Swappable Drives"
+      ],
+      "description": "A professional-grade rack server with high reliability and performance for demanding enterprise applications and virtualization.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": "server-t1",
+      "slug": "server-t1",
+      "name": "Server T1",
+      "category": "server",
+      "tier": "professional",
+      "price": 4499,
+      "specs": {
+        "cpu": "AMD EPYC",
+        "gpu": "Optional NVIDIA T4",
+        "ram": "192GB DDR5-4800 ECC",
+        "storage": "6TB SSD RAID",
+        "cooling": "Redundant Air Cooling"
+      },
+      "features": [
+        "Tower Form Factor",
+        "Redundant Power",
+        "Remote Management",
+        "RAID Storage"
+      ],
+      "description": "A tower server designed for small businesses and remote offices, offering enterprise-grade performance in a compact form factor.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "server-hpc",
+      "slug": "server-hpc-cluster-node",
+      "name": "HPC Cluster Node",
+      "category": "server",
+      "tier": "ultimate",
+      "price": 9999,
+      "specs": {
+        "cpu": "Dual AMD EPYC",
+        "gpu": "4x NVIDIA A100",
+        "ram": "1TB DDR5-4800 ECC",
+        "storage": "8TB NVMe SSD",
+        "cooling": "Liquid Cooling"
+      },
+      "features": [
+        "Rack Mountable",
+        "Redundant Power",
+        "InfiniBand",
+        "Remote Management",
+        "GPU Computing"
+      ],
+      "description": "A high-performance computing node designed for AI research, scientific computing, and other compute-intensive workloads.",
+      "image": "/placeholder.svg?height=600&width=600",
+      "inStock": false,
+      "featured": false
+    }
+  ]
+}

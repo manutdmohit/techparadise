@@ -123,7 +123,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       firstName: newUser.firstName,
       lastName: newUser.lastName,
       email: newUser.email,
-      avatar: `https://api.dicebear.com/7.x/avataaars/svg?seed=${email}`,
+      avatar: 'https://github.com/shadcn.png',
     };
 
     // Save to state and localStorage

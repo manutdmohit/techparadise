@@ -35,11 +35,11 @@ export default function Navbar() {
   const navItems = [
     { name: 'Gaming', href: '/gaming', active: isGaming },
     { name: 'Corporate', href: '/corporate', active: isCorporate },
-    { name: 'Products', href: '#' },
-    { name: 'Support', href: '#' },
+    { name: 'Products', href: '/products' },
+    { name: 'Support', href: '/support' },
 
-    { name: 'Solutions', href: '#' },
-    { name: 'Blog', href: '#' },
+    { name: 'Solutions', href: '/solutions' },
+    { name: 'Blog', href: '/blog' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
 

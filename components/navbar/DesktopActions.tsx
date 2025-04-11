@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { LogIn, UserPlus } from 'lucide-react';
 import { UserMenu } from '@/components/user-menu';
+import CartDropdown from '../cart-dropdown';
 
 export default function DesktopActions({
   user,
@@ -17,6 +18,7 @@ export default function DesktopActions({
 }) {
   return (
     <div className="hidden md:flex items-center gap-4">
+      <CartDropdown />
       {user ? (
         <>
           <UserMenu />

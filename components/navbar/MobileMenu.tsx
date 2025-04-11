@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { LogOut, LogIn, UserPlus, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
+import CartDropdown from '../cart-dropdown';
 
 export default function MobileMenu({
   isOpen,
@@ -72,6 +73,7 @@ export default function MobileMenu({
             ))}
 
             <div className="pt-2 flex flex-col space-y-2">
+              <CartDropdown />
               {user ? (
                 <>
                   <div className="flex items-center gap-3 border-t border-zinc-800 py-2">
