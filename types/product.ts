@@ -106,4 +106,5 @@ export type CartItem = {
   productId: string;
   quantity: number;
   price: number; // added price field
+  image: string;
 };
