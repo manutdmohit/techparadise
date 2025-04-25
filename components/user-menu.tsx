@@ -46,7 +46,7 @@ export function UserMenu() {
       >
         <Button variant="ghost" className="h-10 w-10 rounded-full p-0">
           <Image
-            src={user.avatar || '/placeholder.svg?height=40&width=400'}
+            src={user.email || '/placeholder.svg?height=40&width=400'}
             alt={`${user.firstName} ${user.lastName}`}
             width={40}
             height={40}
@@ -96,7 +96,7 @@ export function UserMenu() {
           <SheetTrigger asChild>
             <Button variant="ghost" className="h-10 w-10 rounded-full p-0">
               <Image
-                src={user.avatar || '/placeholder.svg?height=40&width=40'}
+                src={user.email || '/placeholder.svg?height=40&width=40'}
                 alt={`${user.firstName} ${user.lastName}`}
                 width={40}
                 height={40}
@@ -107,7 +107,7 @@ export function UserMenu() {
           <SheetContent side="left" className="bg-zinc-900 text-white w-72">
             <div className="flex items-center space-x-3 mb-4">
               <Image
-                src={user.avatar || '/placeholder.svg?height=40&width=40'}
+                src={user.email || '/placeholder.svg?height=40&width=40'}
                 alt={`${user.firstName} ${user.lastName}`}
                 width={40}
                 height={40}
