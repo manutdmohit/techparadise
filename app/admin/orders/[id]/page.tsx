@@ -80,7 +80,7 @@ const getOrderDetails = (id: string) => {
   };
 };
 
-export default function OrderDetail({ params }: { params: { id: string } }) {
+export default function OrderDetail(params: { id: string }) {
   const [order, setOrder] = useState<any>(null);
   const [status, setStatus] = useState('');
   const [isLoading, setIsLoading] = useState(false);
