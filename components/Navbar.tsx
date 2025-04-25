@@ -185,9 +185,10 @@ export default function Navbar() {
                     <div className="flex items-center justify-between py-2 border-t border-zinc-800">
                       <div className="flex items-center gap-3">
                         <div className="h-8 w-8 rounded-full overflow-hidden">
+                          // check here
                           <img
                             src={
-                              user.avatar ||
+                              user.email ||
                               '/placeholder.svg?height=32&width=32'
                             }
                             alt={`${user.firstName} ${user.lastName}`}
