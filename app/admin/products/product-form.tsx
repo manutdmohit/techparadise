@@ -53,7 +53,7 @@ export default function ProductForm({
   useEffect(() => {
     if (isEditing && productId) {
       // Find the product by ID
-      const product = products.find((p) => p.id === Number.parseInt(productId));
+      const product = products.find((p) => p.id === productId);
       if (product) {
         setFormData(product);
       } else {
