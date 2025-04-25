@@ -1,7 +1,7 @@
 import type React from 'react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import './globals.css';
+import '../globals.css';
 
 import BackToHome from '@/components/back-to-home';
 import Navbar from '@/components/navbar/Navbar';
@@ -24,18 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <CartProvider>
-          <AuthProvider>
-            {/* <Navbar /> */}
-            <main>{children}</main>
-            {/* <Footer /> */}
-            <BackToHome />
-            <Toaster />
-          </AuthProvider>
-        </CartProvider>
-      </body>
-    </html>
+    <div className="flex h-screen flex-col">
+      <Navbar />
+      <main className="flex-1">{children}</main>
+    </div>
   );
 }

@@ -13,6 +13,7 @@ import MobileMenu from './MobileMenu';
 import Dialogs from './Dialogs';
 
 import { useAuth } from '@/contexts/auth-context';
+import CartDropdown from '../cart-dropdown';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -42,17 +43,6 @@ export default function Navbar() {
     { name: 'Blog', href: '/blog' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
-
-    // {
-    //   name:
-    //     pathname === '/' ? 'Products' : isGaming ? 'Customize' : 'Solutions',
-    //   href: '#',
-    // },
-    // { name: 'Support', href: '#' },
-    // {
-    //   name: pathname === '/' ? 'About' : isGaming ? 'Blog' : 'Contact',
-    //   href: '#',
-    // },
   ];
 
   return (
@@ -68,6 +58,8 @@ export default function Navbar() {
         <NavLinks navItems={navItems} />
 
         <div className="flex md:hidden">
+          <CartDropdown />
+
           <Button
             variant="ghost"
             size="icon"

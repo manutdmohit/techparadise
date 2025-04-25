@@ -8,19 +8,22 @@ import {
   type ReactNode,
 } from 'react';
 import { toast } from 'sonner';
-
-type User = {
+interface User {
   id: string;
+  email: string;
   firstName: string;
   lastName: string;
-  email: string;
-  avatar?: string;
-};
+  isAdmin?: boolean;
+}
 
-type AuthContextType = {
+interface AuthContextType {
   user: User | null;
   isLoading: boolean;
-  signIn: (email: string, password: string) => Promise<void>;
+  signIn: (
+    email: string,
+    password: string,
+    requireAdmin?: boolean
+  ) => Promise<void>;
   signUp: (
     firstName: string,
     lastName: string,
@@ -28,64 +31,79 @@ type AuthContextType = {
     password: string
   ) => Promise<void>;
   signOut: () => void;
-};
+}
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
-  // Check if user is already logged in on mount
+  // Check for existing session on mount
   useEffect(() => {
     const storedUser = localStorage.getItem('user');
     if (storedUser) {
-      setUser(JSON.parse(storedUser));
+      try {
+        setUser(JSON.parse(storedUser));
+      } catch (error) {
+        console.error('Failed to parse stored user:', error);
+        localStorage.removeItem('user');
+      }
     }
-    setIsLoading(false);
   }, []);
 
-  // Mock sign-in function (in a real app, this would call an API)
-  const signIn = async (email: string, password: string) => {
+  const signIn = async (
+    email: string,
+    password: string,
+    requireAdmin = false
+  ) => {
     setIsLoading(true);
+    try {
+      // Simulate API call
+      await new Promise((resolve) => setTimeout(resolve, 1500));
 
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+      // For demo purposes, we'll just check if the email contains "error" to simulate an error
+      if (email.includes('error')) {
+        throw new Error('Invalid email or password');
+      }
 
-    // Check if user exists in localStorage (for demo purposes)
-    const users = JSON.parse(localStorage.getItem('users') || '[]');
-    const foundUser = users.find((u: any) => u.email === email);
+      // Check if admin access is required but the email doesn't have admin privileges
+      const isAdminUser = email.includes('admin') || email.includes('demo');
+      if (requireAdmin && !isAdminUser) {
+        throw new Error("You don't have admin privileges");
+      }
 
-    if (!foundUser) {
+      // Create mock user
+      const mockUser: User = {
+        id: 'user-' + Math.random().toString(36).substr(2, 9),
+        email,
+        firstName: 'Demo',
+        lastName: 'User',
+        isAdmin: isAdminUser,
+      };
+
+      // Save to localStorage
+      localStorage.setItem('user', JSON.stringify(mockUser));
+      setUser(mockUser);
+
+      // toast({
+      //   title: 'Signed in successfully',
+      //   description: `Welcome back, ${mockUser.firstName}!`,
+      // });
+
+      toast.success('Signed in successfully', {
+        description: `Welcome back, ${mockUser.firstName}!`,
+      });
+    } catch (error) {
+      if (error instanceof Error) {
+        throw error;
+      }
+      throw new Error('An unexpected error occurred');
+    } finally {
       setIsLoading(false);
-      throw new Error('User not found');
     }
-
-    // In a real app, you would verify the password here
-    // For demo purposes, we'll just assume it's correct
-
-    // Create user data
-    const userData: User = {
-      id: foundUser.id,
-      firstName: foundUser.firstName,
-      lastName: foundUser.lastName,
-      email: foundUser.email,
-      avatar: 'https://github.com/shadcn.png',
-    };
-
-    // Save to state and localStorage
-    setUser(userData);
-    localStorage.setItem('user', JSON.stringify(userData));
-    setIsLoading(false);
-
-    // Show welcome toast
-    toast.success(`Welcome back, ${userData.firstName}!`, {
-      description: 'You have successfully signed in.',
-      className: 'bg-zinc-900 border-zinc-800 text-white',
-    });
   };
 
-  // Mock sign-up function
   const signUp = async (
     firstName: string,
     lastName: string,
@@ -93,60 +111,47 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     password: string
   ) => {
     setIsLoading(true);
+    try {
+      // Simulate API call
+      await new Promise((resolve) => setTimeout(resolve, 1500));
 
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+      // For demo purposes, we'll just check if the email contains "taken" to simulate an error
+      if (email.includes('taken')) {
+        throw new Error('Email is already taken');
+      }
 
-    // Check if user already exists
-    const users = JSON.parse(localStorage.getItem('users') || '[]');
-    if (users.some((u: any) => u.email === email)) {
+      // Create mock user
+      const mockUser: User = {
+        id: 'user-' + Math.random().toString(36).substr(2, 9),
+        email,
+        firstName,
+        lastName,
+        isAdmin: email.includes('admin') || email.includes('demo'),
+      };
+
+      // Save to localStorage
+      localStorage.setItem('user', JSON.stringify(mockUser));
+      setUser(mockUser);
+
+      toast.success('Signed up successfully', {
+        description: `Welcome, ${mockUser.firstName}!`,
+      });
+    } catch (error) {
+      if (error instanceof Error) {
+        throw error;
+      }
+      throw new Error('An unexpected error occurred');
+    } finally {
       setIsLoading(false);
-      throw new Error('User with this email already exists');
     }
-
-    // Create new user
-    const newUser = {
-      id: `user-${Date.now()}`,
-      firstName,
-      lastName,
-      email,
-      password, // In a real app, this would be hashed
-    };
-
-    // Save user to "database" (localStorage)
-    users.push(newUser);
-    localStorage.setItem('users', JSON.stringify(users));
-
-    // Create user data for session
-    const userData: User = {
-      id: newUser.id,
-      firstName: newUser.firstName,
-      lastName: newUser.lastName,
-      email: newUser.email,
-      avatar: 'https://github.com/shadcn.png',
-    };
-
-    // Save to state and localStorage
-    setUser(userData);
-    localStorage.setItem('user', JSON.stringify(userData));
-    setIsLoading(false);
-
-    // Show welcome toast
-    toast.success(`Welcome, ${userData.firstName}!`, {
-      description: 'You have successfully signed up.',
-      className: 'bg-zinc-900 border-zinc-800 text-white',
-    });
   };
 
-  // Sign out function
   const signOut = () => {
-    setUser(null);
     localStorage.removeItem('user');
+    setUser(null);
 
-    // Show sign out toast
-    toast.success('You have successfully signed out.', {
-      description: 'You have been signed out.',
-      className: 'bg-zinc-900 border-zinc-800 text-white',
+    toast.success('Signed out successfully', {
+      description: 'You have been signed out of the admin area.',
     });
   };
 

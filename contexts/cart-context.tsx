@@ -113,8 +113,17 @@ export function CartProvider({ children }: { children: ReactNode }) {
   };
 
   const updateQuantity = (productId: string, quantity: number) => {
+    const product = getProductById(productId);
+
     if (quantity < 1) {
       removeItem(productId);
+      return;
+    }
+
+    if (product && quantity > product.quantity) {
+      toast.error(`Only ${product.quantity} items available in stock`, {
+        className: 'bg-zinc-900 border-zinc-800 text-white',
+      });
       return;
     }
 

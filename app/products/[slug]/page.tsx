@@ -24,6 +24,7 @@ import ProductCard from '@/components/product-card';
 import { useCart } from '@/contexts/cart-context';
 import { formatPrice } from '@/lib/utils';
 import { Product } from '@/types/product';
+import { toast } from 'sonner';
 
 export default function ProductDetailPage() {
   const params = useParams();
@@ -33,7 +34,7 @@ export default function ProductDetailPage() {
   const [loading, setLoading] = useState(true);
   const [quantity, setQuantity] = useState(1);
 
-  const { addItem } = useCart();
+  const { items, addItem } = useCart();
 
   useEffect(() => {
     // Find the product by slug
@@ -85,11 +86,31 @@ export default function ProductDetailPage() {
   const decreaseQuantity = () => {
     if (quantity > 1) {
       setQuantity(quantity - 1);
+    } else {
+      toast.info('Minimum quantity is 1', {
+        className: 'bg-yellow-500 text-white',
+        icon: '⚠️',
+      });
     }
   };
 
   const increaseQuantity = () => {
-    setQuantity(quantity + 1);
+    const getItem = items.find((item) => item.productId === product.id);
+
+    let totalQuantity = quantity;
+
+    if (getItem) {
+      totalQuantity = getItem.quantity + quantity;
+    }
+
+    if (totalQuantity < product.quantity) {
+      setQuantity(quantity + 1);
+    } else {
+      toast.warning(`Only ${product.quantity} items in stock`, {
+        className: 'bg-red-500 text-white',
+        icon: '😞',
+      });
+    }
   };
 
   const handleAddToCart = () => {
