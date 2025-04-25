@@ -19,8 +19,32 @@ import {
 } from '@/components/ui/card';
 import { products } from '@/data/products';
 
+type Order = {
+  id: string;
+  customer: string;
+  date: string;
+  total: number;
+  status: string;
+};
+
+type ProductStat = {
+  id: number;
+  name: string;
+  sales: number;
+  revenue: number;
+};
+
+type Stats = {
+  totalRevenue: number;
+  totalOrders: number;
+  totalCustomers: number;
+  totalProducts: number;
+  recentOrders: Order[];
+  topProducts: ProductStat[];
+};
+
 export default function AdminDashboard() {
-  const [stats, setStats] = useState({
+  const [stats, setStats] = useState<Stats>({
     totalRevenue: 0,
     totalOrders: 0,
     totalCustomers: 0,
@@ -30,9 +54,7 @@ export default function AdminDashboard() {
   });
 
   useEffect(() => {
-    // In a real app, this would be an API call
-    // Simulating data for demo purposes
-    const mockStats = {
+    const mockStats: Stats = {
       totalRevenue: 124895.5,
       totalOrders: 342,
       totalCustomers: 189,
